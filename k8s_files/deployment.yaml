@@ -17,7 +17,8 @@ spec:
     spec:
       containers:
       - name: pandacloud-container
-        image: amazon-prime:latest
+        image: lighitha/amazon-prime:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 3000
 ...
