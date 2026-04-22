@@ -18,7 +18,6 @@ spec:
       containers:
       - name: pandacloud-container
         image: amazon-prime:latest
-        imagePullPolicy: Never
         ports:
         - containerPort: 3000
 ...
